@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Andre Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Game Logic JavaScript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Crystal Collector!</h1>
+    </div>
+    <div class="col-md-8 col-lg-8">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2>Rules of the Game</h2>
+            </div>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will cahnge the values of each crystal</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-xs-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3> Target Number </h3>
+                    </div>
+                    <div class="target-number"></div>
+                </div>
+            </div>
+            <div class="col-xs-4 col-xs-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3>Your Score</h3>
+                    </div>
+                    <div class="score">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4 col-xs-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3>Results</h3>
+                    </div>
+                    <div class="wins-losses">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>Click on the Crystals</h3>
+                </div>
+                <div class="col-xs-3 col-md-3 crystal" id="red">
+                    <img src="assets/images/red.png" alt="red">
+                </div>
+                <div class="col-xs-3 col-md-3 crystal" id="blue">
+                    <img src="assets/images/blue.png" alt="blue">
+                </div>
+                <div class="col-xs-3 col-md-3 crystal " id="yellow">
+                    <img src="assets/images/yellow.png" alt="yellow">
+                </div>
+                <div class="col-xs-3 col-md-3 crystal " id="purple">
+                    <img src="assets/images/purple.png" alt="purple">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
