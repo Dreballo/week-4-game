@@ -1,3 +1,13 @@
+
+
+* {
+
+	color:#ffffff;
+	
+}
+
+
+
 p{
 	text-align: center;
 }
@@ -6,18 +16,59 @@ p{
 h1{
 
 	color: #ffffff;
+	font-weight: bolder;
 	text-align: center;
+	
 }
 
 
 h2, h3{
 	text-align: center;
+
 }
 
-.jumbotron{
 
-	color: #ffffff;
 
-	background-image: url(https://vapresspass.com/wp-content/uploads/2016/04/Blue-Crystals.jpg);
+body{
 
+	background-image: url(http://vignette1.wikia.nocookie.net/superman/images/0/07/Fortress-unbound.jpg/revision/latest?cb=20130621003234);
+
+}
+
+
+
+.panel {
+
+	
+	background-color: rgba(255,255,255,0.1); 
+
+}
+
+.panel-heading{
+
+
+	opacity: .6;
+
+}
+
+
+.container {
+
+height: 80%;
+width: 80%;	
+	
+
+}
+
+.heading_panel{
+
+	opacity: .8;
+
+}
+
+img{
+
+
+	height: 175px;
+	width: 175px;
 }
